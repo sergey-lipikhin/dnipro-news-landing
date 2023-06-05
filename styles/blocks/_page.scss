@@ -1,0 +1,15 @@
+.page {
+  @extend %mainText;
+  font-family: "Roboto", "Helvetica", sans-serif;
+
+
+  scroll-behavior: smooth;
+
+  &__body {
+    margin-top: 50px;
+  }
+
+  &__header {
+    margin-bottom: 160px;
+  }
+}

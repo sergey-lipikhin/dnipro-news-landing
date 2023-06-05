@@ -1,0 +1,32 @@
+.post {
+  &__title {
+    @extend %postTitle;
+    margin-bottom: 20px;
+  }
+
+  &__date {
+    @extend %postDate;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  &__content {
+    margin-bottom: 35px;
+  }
+
+  &__article {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__ {
+
+  }
+}

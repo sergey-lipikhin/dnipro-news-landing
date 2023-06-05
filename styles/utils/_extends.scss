@@ -1,0 +1,33 @@
+%mainText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  letter-spacing: 0.5px;
+  text-align: justify;
+
+  color: $primaryColor;
+}
+
+%postTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 52px;
+
+  letter-spacing: 0.5px;
+
+  color: $primaryColor;
+}
+
+%postDate {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+
+  letter-spacing: 0.5px;
+
+  color: $secondaryColor;
+}
