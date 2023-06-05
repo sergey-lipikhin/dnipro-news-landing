@@ -1,9 +1,6 @@
 %mainText {
   font-size: 30px;
   line-height: 40px;
-
-  letter-spacing: 0.5px;
-
   color: $primaryColor;
 }
 
@@ -11,18 +8,12 @@
   font-weight: 500;
   font-size: 55px;
   line-height: 52px;
-
-  letter-spacing: 0.5px;
-
   color: $primaryColor;
 }
 
 %postDate {
   font-size: 30px;
   line-height: 52px;
-
-  letter-spacing: 0.5px;
-
   color: $secondaryColor;
 }
 
@@ -30,15 +21,11 @@
   font-weight: 700;
   font-size: 45px;
   line-height: 46px;
-
-  letter-spacing: 0.5px;
-
   color: $secondaryColor;
 }
 
 %footerText {
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 0.5px;
   color: $primaryColor;
 }

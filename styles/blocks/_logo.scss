@@ -3,7 +3,17 @@
   width: max-content;
   
   &__image {
-    width: 580px;
-    height: 87px;    
+    width: 270px;
+    height: 45px;
+    
+    @include onTablet {
+      width: 380px;
+      height: 50px;
+    }
+
+    @include onDesktop {
+      width: 580px;
+      height: 90px;
+    }
   }
 }

@@ -3,18 +3,34 @@
   font-family: 'DniproCity', sans-serif;
   font-style: normal;
   font-weight: 400;
+  letter-spacing: 0.5px;
 
   scroll-behavior: smooth;
 
   &__header {
-    margin: 53px 0 160px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+
+    @include onTablet {
+      padding: 30px 0;
+      margin-bottom: 70px;
+    }
+
+    @include onDesktop {
+      padding: 50px 0;
+      margin-bottom: 110px;
+    }
   }
 
-  &__main {
-    margin: 53px 0 225px;
-  }
+  &__section {
+    margin-bottom: 80px;
 
-  &__post {
-    margin-bottom: 225px;
+    @include onTablet {
+      margin-bottom: 135px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 225px;
+    }
   }
 }
