@@ -1,0 +1,47 @@
+.news {
+  &__title {
+    @extend %listPostTitle;
+
+    width: 560px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 117px;
+
+    border: 3px solid $secondaryColor;
+    border-radius: 60px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 63px;
+  }
+
+  &__image {
+    width: 50%;
+    height: 300px;
+    margin-right: 83px;
+    border-radius: 50px;
+  }
+
+  &__info {
+    width: 50%;
+  }
+
+  &__subtitle {
+    @extend %listPostTitle;
+    margin-bottom: 23px;
+
+  }
+
+  &__date {
+    @extend %postDate;
+    display: block;
+  }
+}

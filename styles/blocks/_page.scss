@@ -1,15 +1,18 @@
 .page {
   @extend %mainText;
-  font-family: "Roboto", "Helvetica", sans-serif;
-
+  font-family: 'DniproCity', sans-serif;
 
   scroll-behavior: smooth;
 
-  &__body {
-    margin-top: 50px;
+  &__header {
+    margin: 53px 0 160px;
   }
 
-  &__header {
-    margin-bottom: 160px;
+  &__main {
+    margin: 53px 0 225px;
+  }
+
+  &__post {
+    margin-bottom: 225px;
   }
 }

@@ -5,7 +5,6 @@
   line-height: 40px;
 
   letter-spacing: 0.5px;
-  text-align: justify;
 
   color: $primaryColor;
 }
@@ -26,6 +25,17 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 52px;
+
+  letter-spacing: 0.5px;
+
+  color: $secondaryColor;
+}
+
+%listPostTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
 
   letter-spacing: 0.5px;
 
