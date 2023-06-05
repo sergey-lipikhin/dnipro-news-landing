@@ -13,8 +13,6 @@ ul {
 }
 
 .page {
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 40px;
   letter-spacing: 0.5px;
@@ -22,7 +20,6 @@ ul {
 }
 
 .post__title {
-  font-style: normal;
   font-weight: 500;
   font-size: 55px;
   line-height: 52px;
@@ -31,8 +28,6 @@ ul {
 }
 
 .news__date, .post__date {
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 52px;
   letter-spacing: 0.5px;
@@ -40,7 +35,6 @@ ul {
 }
 
 .news__subtitle, .news__title {
-  font-style: normal;
   font-weight: 700;
   font-size: 45px;
   line-height: 46px;
@@ -48,8 +42,17 @@ ul {
   color: #505050;
 }
 
+.footer {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
 .page {
   font-family: "DniproCity", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   scroll-behavior: smooth;
 }
 .page__header {
@@ -144,8 +147,37 @@ ul {
 }
 
 .footer {
+  width: 100%;
   background-color: #EDEDED;
+}
+.footer__content {
   height: 117px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__left {
+  display: flex;
+  align-items: center;
+}
+.footer__right {
+  display: flex;
+  align-items: center;
+}
+.footer__icon {
+  width: 40px;
+  height: 40px;
+}
+.footer__icon:not(:last-child) {
+  margin-right: 60px;
+}
+.footer__icon--is-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 40px;
+}
+.footer__label {
+  margin-right: 70px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,44 @@
 .footer {
+  @extend %footerText;
+  width: 100%;
+
   background-color: $footerColor;
-  height: 117px;
+
+  &__content {
+    height: 117px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+
+    &:not(:last-child) {
+      margin-right: 60px;
+    }
+
+
+    &--is-logo {
+      width: 60px;
+      height: 60px;
+      margin-right: 40px;
+    }
+  }
+
+  &__label {
+    margin-right: 70px;
+  }
 }
